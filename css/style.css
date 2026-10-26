@@ -426,10 +426,11 @@ body.is-ready .hero__title .line > span { transform: none; }
 .wa-float svg { width: 30px; height: 30px; }
 
 /* ---------- Reveal ---------- */
-.reveal { opacity: 0; transform: translateY(34px); transition: opacity 1s var(--ease) var(--d, 0s), transform 1s var(--ease) var(--d, 0s); }
+/* atrasos escalonados pela metade para a seção não parecer travada */
+.reveal { --rd: calc(var(--d, 0s) * .5); opacity: 0; transform: translateY(24px); transition: opacity .6s var(--ease) var(--rd), transform .6s var(--ease) var(--rd); }
 .reveal.is-in { opacity: 1; transform: none; }
 /* o recorte fica na imagem interna: clip-path no próprio alvo zera a área vista pelo IntersectionObserver */
-.reveal-img img { clip-path: inset(100% 0 0 0); transition: clip-path 1.4s var(--ease) var(--d, 0s), transform 1.6s var(--ease) var(--d, 0s); }
+.reveal-img img { clip-path: inset(100% 0 0 0); transition: clip-path .9s var(--ease) calc(var(--d, 0s) * .5), transform 1s var(--ease) calc(var(--d, 0s) * .5); }
 .reveal-img.is-in img { clip-path: inset(0 0 0 0); transform: scale(1); }
 .spin-slow { animation: spin 20s linear infinite; }
 

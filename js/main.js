@@ -102,7 +102,7 @@
       $$('[data-count]', e.target).forEach(animateCount);
       revealObs.unobserve(e.target);
     });
-  }, { threshold: .15, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0, rootMargin: '0px 0px 12% 0px' });
   $$('.reveal, .reveal-img').forEach(el => revealObs.observe(el));
 
   /* ---------- Frase palavra por palavra ---------- */
