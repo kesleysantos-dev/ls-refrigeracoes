@@ -1,6 +1,6 @@
-# Falcão Climatização — Site institucional
+# LS Refrigerações — Site institucional
 
-Landing page da **Falcão Climatização** (instalação, desinstalação, manutenção preventiva e corretiva, higienização e recarga de fluido refrigerante).
+Landing page da **LS Refrigerações** (instalação, desinstalação, manutenção preventiva e corretiva, higienização e recarga de fluido refrigerante).
 
 ## Recursos
 - Hero com vídeo de 15s em loop infinito com crossfade, efeito parallax e neve animada

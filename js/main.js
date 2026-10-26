@@ -1,5 +1,5 @@
 /* =========================================================
-   Falcão Climatização — interações
+   LS Refrigerações — interações
    ========================================================= */
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -311,7 +311,7 @@
       return;
     }
     const text = [
-      'Olá, Falcão Climatização! Gostaria de um orçamento.',
+      'Olá, LS Refrigerações! Gostaria de um orçamento.',
       `*Nome:* ${data.get('nome')}`,
       `*Telefone:* ${data.get('telefone')}`,
       `*Serviço:* ${data.get('servico')}`,

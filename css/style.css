@@ -1,5 +1,5 @@
 /* =========================================================
-   Falcão Climatização
+   LS Refrigerações
    ========================================================= */
 :root {
   --bg: #05070d;
@@ -159,7 +159,7 @@ p { color: var(--muted); }
 .hero__content { position: relative; z-index: 2; will-change: transform, opacity; }
 .hero__title {
   font-family: var(--font-display); font-weight: 800;
-  font-size: clamp(2.3rem, 5.4vw, 4.8rem); line-height: 1; letter-spacing: -.03em;
+  font-size: clamp(2.1rem, 5.4vw, 4.8rem); line-height: 1; letter-spacing: -.03em;
   margin-bottom: 28px; max-width: 18ch;
 }
 .hero__title .line { display: block; overflow: hidden; padding-bottom: .06em; }
